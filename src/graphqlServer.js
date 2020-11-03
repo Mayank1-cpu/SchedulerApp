@@ -10,7 +10,7 @@ import { getMainDefinition } from "@apollo/client/utilities";
 import { WebSocketLink } from "@apollo/link-ws";
 import Container from "./containers/Container";
 
-const GRAPHQL_ENDPOINT = "scheduler2020.hasura.app/v1/graphql";
+const GRAPHQL_ENDPOINT = "scheduler20201.hasura.app/v1/graphql";
 
 const httpLink = new HttpLink({
   uri: `https://${GRAPHQL_ENDPOINT}`,
